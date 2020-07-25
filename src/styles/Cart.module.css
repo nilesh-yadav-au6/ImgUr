@@ -1,0 +1,21 @@
+.mainCart {
+    display: flex;
+    flex-direction: column;
+}
+.innerCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 1000px;
+    background: khaki;
+}
+span {
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    text-align: center;
+}
+.payDiv {
+    margin: 25px auto;
+}

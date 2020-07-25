@@ -1,0 +1,16 @@
+.navBar{
+    width: 100vw;
+    background-color: brown;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.mainHeader {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight:bold;
+    font-size: x-large;
+}
