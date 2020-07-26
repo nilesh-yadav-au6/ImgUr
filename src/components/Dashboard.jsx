@@ -55,6 +55,7 @@ class NavBar extends Component {
         }
       }); 
 
+        this.props.history.push("/")
     }; 
      
     render() { 
