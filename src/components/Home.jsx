@@ -24,7 +24,7 @@ class Home extends Component {
     return (
         <div>
             <NavBar />
-            <div  style={{display:"flex" , flexDirection:"row" ,flexWrap:"wrap" ,marginTop:"3rem" , justifyContent:"space-around"}}>
+            <div  style={{display:"flex" , flexDirection:"row" ,flexWrap:"wrap" ,marginTop:"3rem" , justifyContent:"space-around "}}>
             {
                this.state.imageData.map( image => <ImageList key={image.id} image={image} />)
             }
