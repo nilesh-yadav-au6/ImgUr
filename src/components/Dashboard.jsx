@@ -7,7 +7,6 @@ import { Redirect  } from "react-router-dom"
 
   
 class NavBar extends Component { 
-   
     state = { 
   
       selectedFile: null,
@@ -55,11 +54,11 @@ class NavBar extends Component {
         }
       }); 
 
-        this.props.history.push("/")
+        this.props.history.push("/private")
     }; 
      
     render() { 
-     
+     console.log(this.props)
       return (
         <div>
           <Navbar />
